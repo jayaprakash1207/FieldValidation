@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>View page</title>
+</head>
+<body>
+    <h1>Retreived Information of the Student</h1>
+    <table>
+          <tr>
+            <td>First Name</td>
+            <td th:text="${firstname}">firstName</td>
+          </tr>
+          <tr>
+            <td>Last Name</td>
+            <td th:text="${lastname}">lastName</td>
+          </tr>
+          <tr>
+            <td>Mail Id</td>
+            <td th:text="${email}">email</td>
+          </tr>
+          <tr>
+            <td>Mobile Number</td>
+            <td th:text="${mobileNumber}">mobileNumber</td>
+          </tr>
+          <tr>
+            <td>Date Of Birth</td>
+            <td th:text="${dateOfBirth}">dateOfBirth</td>
+          </tr>
+          <tr>
+            <td>Gender</td>
+            <td th:text="${gender}">gender</td>
+          </tr>
+          <tr>
+            <td>AddressLine1</td>
+            <td th:text="${addressLine1}">addressLine1</td>
+          </tr>
+          <tr>
+            <td>AddressLine2</td>
+            <td th:text="${addressLine2}">addressLine2</td>
+          </tr>
+          <tr>
+            <td>City</td>
+            <td th:text="${city}">city</td>
+          </tr>
+          <tr>
+            <td>State</td>
+            <td th:text="${state}">state</td>
+          </tr>
+          <tr>
+            <td>Postal Code</td>
+            <td th:text="${postalCode}">postalCode</td>
+          </tr><tr>
+            <td>Country</td>
+            <td th:text="${country}">country</td>
+          </tr>
+    </table>
+
+
+</body>
+</html>
